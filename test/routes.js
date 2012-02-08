@@ -17,7 +17,7 @@ describe('Methods', function() {
     });
   });
 
-  it('Should only removed one rule from the route', function(done) {
+  it('Should only remove one route from the rules object', function(done) {
     nginx.add({'localhost' : 8000, '127.0.0.1' : 8001}, '/test', function() {
       assert.equal(nginx.rules['/test'][0], 'localhost:8000', 'Both rules not added')
       assert.equal(nginx.rules['/test'][1], '127.0.0.1:8001', 'Both rules not added')    
