@@ -101,3 +101,256 @@
 2012/02/09 13:04:59 [error] 5033#0: *92 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
 2012/02/09 13:04:59 [error] 5033#0: *92 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
 2012/02/09 13:04:59 [error] 5033#0: *92 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 13:25:40 [emerg] 5435#0: directive "include" is not terminated by ";" in nginx//conf/nginx.conf:59
+2012/02/09 13:25:54 [emerg] 5439#0: open() "nginx/conf/teapot" failed (2: No such file or directory) in nginx/conf/nginx.conf:57
+2012/02/09 14:15:15 [emerg] 6181#0: open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginxconf/nginx.conf" failed (2: No such file or directory)
+2012/02/09 14:15:24 [emerg] 6194#0: open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginxconf/nginx.conf" failed (2: No such file or directory)
+2012/02/09 14:16:07 [emerg] 6210#0: open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginxconf/nginx.conf" failed (2: No such file or directory)
+2012/02/09 14:17:05 [emerg] 6229#0: open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginxconf/nginx.conf" failed (2: No such file or directory)
+2012/02/09 14:17:23 [emerg] 6244#0: open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginxconf/nginx.conf" failed (2: No such file or directory)
+2012/02/09 14:17:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:17:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:17:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:17:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:17:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:17:50 [emerg] 6260#0: still could not bind()
+2012/02/09 14:18:27 [emerg] 6280#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6280#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6280#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6280#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6280#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:27 [emerg] 6280#0: still could not bind()
+2012/02/09 14:18:27 [emerg] 6260#0: still could not bind()
+2012/02/09 14:18:50 [emerg] 6294#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6294#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6294#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6294#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6294#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:18:50 [emerg] 6294#0: still could not bind()
+2012/02/09 14:18:50 [emerg] 6260#0: still could not bind()
+2012/02/09 14:19:14 [emerg] 6306#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6306#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6306#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:15 [emerg] 6318#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6306#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:15 [emerg] 6318#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6306#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:15 [emerg] 6318#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:14 [emerg] 6306#0: still could not bind()
+2012/02/09 14:19:14 [emerg] 6260#0: still could not bind()
+2012/02/09 14:19:16 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:15 [emerg] 6318#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:17 [emerg] 6330#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:16 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:15 [emerg] 6318#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:17 [emerg] 6330#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:16 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:15 [emerg] 6318#0: still could not bind()
+2012/02/09 14:19:17 [emerg] 6330#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:16 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:17 [emerg] 6330#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:16 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:17 [emerg] 6330#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:16 [emerg] 6260#0: still could not bind()
+2012/02/09 14:19:19 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:17 [emerg] 6330#0: still could not bind()
+2012/02/09 14:19:19 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:19 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:19 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:19 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:19 [emerg] 6260#0: still could not bind()
+2012/02/09 14:19:26 [emerg] 6342#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6342#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6342#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6342#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6342#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6260#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:19:26 [emerg] 6342#0: still could not bind()
+2012/02/09 14:19:26 [emerg] 6260#0: still could not bind()
+2012/02/09 14:20:13 [alert] 5460#0: unlink() "nginx//logs/nginx.pid" failed (2: No such file or directory)
+2012/02/09 14:20:40 [emerg] 6392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:20:40 [emerg] 6392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:20:40 [emerg] 6392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:20:40 [emerg] 6392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:20:40 [emerg] 6392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 14:20:40 [emerg] 6392#0: still could not bind()
+2012/02/09 14:21:25 [alert] 6367#0: unlink() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2012/02/09 15:18:02 [error] 6868#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/../../static/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:18:13 [error] 6883#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/../../static/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:18:58 [error] 6900#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/../../static/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:19:05 [error] 6915#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/../../static/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:19:46 [error] 6968#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:19:46 [error] 6968#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:19:49 [error] 6968#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:19:49 [error] 6968#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:20:08 [emerg] 6995#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:20:08 [emerg] 6995#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:20:08 [emerg] 6995#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:20:08 [emerg] 6995#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:20:27 [error] 7003#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:20:27 [error] 7003#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:20:27 [error] 7003#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:20:27 [error] 7003#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:20:28 [error] 7003#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:21:40 [error] 7003#0: *3 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:21:40 [error] 7003#0: *3 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:21:41 [error] 7003#0: *3 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:21:41 [error] 7003#0: *3 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:21:41 [error] 7003#0: *3 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:21:41 [error] 7003#0: *3 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:21:41 [error] 7003#0: *3 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:21:41 [error] 7003#0: *3 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:21:41 [error] 7003#0: *3 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:21:41 [error] 7003#0: *3 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:21:57 [error] 7003#0: *3 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:21:57 [error] 7003#0: *3 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:22:13 [error] 7003#0: *3 "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:22:13 [error] 7003#0: *3 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:22:43 [error] 7003#0: *3 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:23:21 [error] 7122#0: *1 directory index of "/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:23:37 [error] 7138#0: *1 directory index of "/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:24:49 [error] 7159#0: *1 open() "/test" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2012/02/09 15:25:10 [error] 7177#0: *1 directory index of "/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2012/02/09 15:26:21 [error] 7192#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:26:22 [error] 7192#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:26:22 [error] 7192#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:26:22 [error] 7192#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:26:22 [error] 7192#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:26:57 [error] 7192#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:27:01 [error] 7192#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/a" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /a HTTP/1.1", host: "localhost"
+2012/02/09 15:27:01 [error] 7192#0: *1 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:27:29 [emerg] 7198#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:27:29 [emerg] 7198#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:27:29 [emerg] 7198#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:29:17 [error] 7314#0: *5 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:29:17 [error] 7314#0: *3 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:29:17 [error] 7314#0: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:29:17 [error] 7314#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:29:17 [error] 7314#0: *3 no live upstreams while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://test/test", host: "localhost"
+2012/02/09 15:29:17 [error] 7314#0: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:29:28 [error] 7331#0: *2 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:29:28 [error] 7331#0: *3 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:29:28 [error] 7331#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:29:28 [error] 7331#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:29:28 [error] 7331#0: *3 no live upstreams while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://test/test", host: "localhost"
+2012/02/09 15:29:28 [error] 7331#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:30:43 [error] 7385#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:30:43 [error] 7385#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:30:43 [error] 7385#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:30:43 [error] 7385#0: *2 no live upstreams while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://test/test", host: "localhost"
+2012/02/09 15:30:43 [error] 7385#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:30:43 [error] 7385#0: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:30:43 [error] 7385#0: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:32:35 [error] 7425#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:32:35 [error] 7425#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:32:35 [error] 7425#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:32:35 [error] 7425#0: *2 no live upstreams while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://test/test", host: "localhost"
+2012/02/09 15:32:35 [error] 7425#0: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:32:35 [error] 7425#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:32:35 [error] 7425#0: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:33:08 [error] 7444#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:33:08 [error] 7444#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:33:08 [error] 7444#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:33:08 [error] 7444#0: *2 no live upstreams while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://test/test", host: "localhost"
+2012/02/09 15:33:08 [error] 7444#0: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:33:08 [error] 7444#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:33:08 [error] 7444#0: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:33:16 [error] 7444#0: *11 no live upstreams while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://test/test", host: "localhost"
+2012/02/09 15:33:16 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:18 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:18 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:18 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:18 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:19 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:19 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:19 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:19 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:19 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:20 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:20 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:20 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:20 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:20 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:20 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:20 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *12 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:21 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *12 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:22 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:23 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:23 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:23 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:23 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *11 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *12 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *12 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *12 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *12 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *12 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *12 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *77 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *77 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:24 [error] 7444#0: *77 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:25 [error] 7444#0: *77 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:25 [error] 7444#0: *77 open() "/home/Development/github/liamoehlman/nginx-http-proxy/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2012/02/09 15:33:34 [emerg] 7470#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:33:34 [error] 7476#0: *125 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8003/test", host: "localhost"
+2012/02/09 15:33:34 [error] 7476#0: *126 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:33:34 [error] 7476#0: *124 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:33:34 [error] 7476#0: *124 no live upstreams while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://test/test", host: "localhost"
+2012/02/09 15:33:34 [error] 7476#0: *125 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:33:34 [error] 7476#0: *126 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8001/test", host: "localhost"
+2012/02/09 15:33:34 [error] 7476#0: *125 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8002/test", host: "localhost"
+2012/02/09 15:33:34 [emerg] 7470#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:33:34 [emerg] 7470#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2012/02/09 15:33:34 [emerg] 7470#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
