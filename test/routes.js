@@ -14,22 +14,22 @@ function include(arr, item) {
 
 before(function() {
   // replace the nginx config with a basic one
-  var nginxConf = path.join(__dirname, 'nginx', 'conf', 'nginx.conf');
-  var nginxStartup = fs.readFileSync(path.join(__dirname, 'files', 'nginx.startup'), 'utf8');
+  var upstream = path.join(__dirname, 'nginx', 'conf', 'upstream')
+    , location = path.join(__dirname, 'nginx', 'conf', 'location')
 
-  fs.unlink(nginxConf, function(err) {
-    if (err) {}
+  fs.unlinkSync(location);
+  fs.writeFileSync(location, '');
+  fs.unlinkSync(upstream);
+  fs.writeFileSync(upstream, '');
 
-    fs.writeFileSync(nginxConf, nginxStartup, 'utf8');
-    // start nginx
-    exec('nginx -p ' + path.join(__dirname, '/nginx/'), function(err, stdout, stderr) {
-      if (err) {
-        console.log(err);
-      }
-    });
-    // start the test server
-    server = spawn('node', [path.join(__dirname, 'server', 'server.js')]);
+  exec('nginx -p ' + path.join(__dirname, '/nginx/'), function(err, stdout, stderr) {
+    if (err) {
+      console.log(err);
+    }
   });
+  server = spawn('node', [path.join(__dirname, 'server', 'server.js')]);
+  nginx.rules = [];
+
 });
 
 after(function() {
@@ -81,14 +81,21 @@ describe('Methods', function() {
 // TODO -- Use diff to determine if the generated config is diffenent to the one on file
       nginx.update(function(err) {
         if (err) {
+          console.log('err');
           done();
         } else {
-          exec('diff -q ' + path.join(__dirname, '/nginx', 'conf', 'nginx.conf') + ' ' + path.join(__dirname, 'diff', 'nginx.conf') , function(err, stdout, stderr) {
-            if (stdout) {
-              done(new Error('Difference in expected and actual configs'));
+          exec('diff -q ' + path.join(__dirname, '/nginx', 'conf', 'upstream') + ' ' + path.join(__dirname, 'files', 'upstream') , function(err, stdout, stderr) {
+            if (err) {
+              done(err);
             } else {
-              done();
-            }
+              exec('diff -q ' + path.join(__dirname, '/nginx', 'conf', 'location') + ' ' + path.join(__dirname, 'files', 'location') , function(err, stdout, stderr) {
+                if (err) {
+                  done(err);
+                } else {
+                  done();
+                }
+             });
+            } // if...else
           });
         }
       });
@@ -97,7 +104,7 @@ describe('Methods', function() {
 
   it('Should reload the nginx config to have the additional routes', function(done) {
     var responses = ['server1', 'server2', 'server3'];
-    
+
     this.timeout(6000);
     request('http://localhost', function(err, resp, body) {
       if (err) {
@@ -127,6 +134,5 @@ describe('Methods', function() {
         });
       }
     });
-
   });
 });

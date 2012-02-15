@@ -1,0 +1,7 @@
+
+upstream test { 
+    server localhost:8001;
+    server localhost:8002;
+    server localhost:8003;
+    
+}

@@ -1,5 +1,7 @@
 node_modules
 test/nginx/logs/*.log
-test/nginx/conf/*.conf
+test/nginx/conf/upstream
+test/nginx/conf/location
+test/demo.js
+test/nginx/rules.json
 
-## keep these
