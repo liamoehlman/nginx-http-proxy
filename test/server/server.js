@@ -1,7 +1,7 @@
 var express = require('express')
-  , server1 = express.createServer()
-  , server2 = express.createServer()
-  , server3 = express.createServer();
+  , server1 = express()
+  , server2 = express()
+  , server3 = express();
 
 // set up three servers for the tests
 

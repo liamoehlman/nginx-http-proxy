@@ -17,15 +17,27 @@ before(function() {
   var upstream = path.join(__dirname, 'nginx', 'conf', 'upstream')
     , location = path.join(__dirname, 'nginx', 'conf', 'location')
 
-  fs.unlinkSync(location);
-  fs.writeFileSync(location, '');
-  fs.unlinkSync(upstream);
-  fs.writeFileSync(upstream, '');
+// override the changes
+  if (fs.existsSync(location)) {
+    console.log("exists");
+    fs.unlinkSync(location);
+    fs.writeFileSync(location, '');    
+  } else {
+    fs.writeFileSync(location, '');  
+  } // if...else
 
+  if (fs.existsSync(upstream)) {
+    fs.unlinkSync(upstream);
+    fs.writeFileSync(upstream, '');  
+  } else {
+    fs.writeFileSync(upstream, '');
+  }
+  
   exec('nginx -p ' + path.join(__dirname, '/nginx/'), function(err, stdout, stderr) {
     if (err) {
       console.log(err);
     }
+    console.log("nginx dir " + path.join(__dirname, '/nginx/'));
   });
   server = spawn('node', [path.join(__dirname, 'server', 'server.js')]);
   nginx.rules = [];
