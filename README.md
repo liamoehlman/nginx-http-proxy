@@ -28,10 +28,9 @@ This will remove localhost:8000 from the /test endpoint
 nginx.del(['localhost:8000'], 'test'), function(err) {
   console.log(err);
 });
-```
-----------------------------------------  
-After using nginx.add() or nginx.del() changes will be written to disk via rules.json
-----------------------------------------
+``` 
+After using nginx.add() or nginx.del() changes will be written to disk via rules.json  
+
 Generates the nginx config from the rules
 ```
 nginx.update(function(err) {
