@@ -22,7 +22,6 @@ nginx.add(['localhost:8000', 'localhost:8001'], 'test'), function(err) {
   console.log(err);
 });  
 ```
----------------------------------------- 
 This will remove localhost:8000 from the /test endpoint
 ```
 nginx.del(['localhost:8000'], 'test'), function(err) {
